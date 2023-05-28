@@ -4,7 +4,7 @@ module.exports = {
   async execute(client) {
     console.log(`${client.user.tag}, kullanıma hazır.`);
     client.user.setPresence({
-      activities: [{ name: `Gurlu <3`, type: `WATCHING` }],
+      activities: [{ name: `mp3 dönüştürücü`, type: `WATCHING` }],
       status: `offline`,
     });
   },
